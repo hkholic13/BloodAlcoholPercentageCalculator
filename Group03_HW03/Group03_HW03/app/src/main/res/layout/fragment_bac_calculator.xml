@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".BacCalculatorFragment">
+
+    <!-- a. Assignment HW03-->
+    <!-- b. fragment_bac_calculator.xml-->
+    <!-- c.Group - 03-->
+    <!--   1) Harika Priya Prathipati-->
+    <!--   2) Himanshi Khatri-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:weightSum="8">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setWeightStr"
+            android:id="@+id/setWeight"
+            android:textColor="@color/black"
+            android:layout_weight="4"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/setWeightNaviBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:backgroundTint="@color/grey"
+            android:text="@string/setWeightBtnStr"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/drinkCounterStr"
+        android:id="@+id/drinkCounter"
+        android:layout_gravity="center"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bacLevelStr"
+        android:id="@+id/bacLevel"
+        android:layout_gravity="center"
+        android:textSize="40sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yourStatusStr"
+            android:id="@+id/status"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:text="@string/safeStatusStr"
+            android:id="@+id/result"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/safebg"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewDrinkBtn"
+        android:text="@string/viewDrinkBtnStr"
+        android:backgroundTint="@color/grey"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addDrinkNaviBtn"
+        android:text="@string/addDrinkBtnStr"
+        android:backgroundTint="@color/grey"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetBtn"
+        android:text="@string/resetBtnStr"
+        android:backgroundTint="@color/grey"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"/>
+</LinearLayout>

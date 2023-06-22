@@ -1,0 +1,36 @@
+<!-- a. Assignment HW03-->
+<!-- b. strings.xml-->
+<!-- c.Group - 03-->
+<!--   1) Harika Priya Prathipati-->
+<!--   2) Himanshi Khatri-->
+<resources>
+    <string name="app_name">Group03_HW03</string>
+    <string name="weightEtStr">Weight (lbs): </string>
+    <string name="setWeightStr">Weight: </string>
+    <string name="drinkCounterStr"># Drinks: </string>
+    <string name="bacLevelStr">BAC Level: </string>
+    <string name="statusStr">Your Status: </string>
+    <string name="genderStr">Gender: </string>
+    <string name="enterWeightHintStr">Enter weight</string>
+    <string name="femaleRbStr">Female</string>
+    <string name="maleRbStr">Male</string>
+    <string name="setWeightBtnStr">Set</string>
+    <string name="cancelBtnStr">Cancel</string>
+    <string name="drinkSizeStr">Drink Size: </string>
+    <string name="oneOzRbStr">1 oz</string>
+    <string name="fiveOzRbStr">5 oz</string>
+    <string name="twelveOzRbStr">12 oz</string>
+    <string name="alcoholPercentageStr">Alcohol %:</string>
+    <string name="yourStatusStr">Your Status:</string>
+    <string name="safeStatusStr">You\'re Safe</string>
+    <string name="warningStatusStr">Be Careful</string>
+    <string name="errorStatusStr">Over the limit!</string>
+    <string name="resetBtnStr">Reset</string>
+    <string name="addDrinkBtnStr">Add Drink</string>
+    <string name="nAStr">N/A</string>
+    <string name="spaceHolder">&#160;</string>
+    <string name="viewDrinkBtnStr">View Drinks</string>
+    <string name="closeBtnStr">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

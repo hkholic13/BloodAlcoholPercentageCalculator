@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewDrinksFragment">
+
+    <!-- a. Assignment HW03-->
+    <!-- b. fragment_view_drinks.xml-->
+    <!-- c.Group - 03-->
+    <!--   1) Harika Priya Prathipati-->
+    <!--   2) Himanshi Khatri-->
+
+    <TextView
+        android:id="@+id/viewDrinkTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/bacLevelStr"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/timeStampTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/bacLevelStr"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prevBtn"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_previous" />
+
+        <Button
+            android:id="@+id/trashBtn"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_trash" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_next" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/closeBtn"
+        android:text="@string/closeBtnStr"
+        android:textColor="@color/black" />
+
+</LinearLayout>
